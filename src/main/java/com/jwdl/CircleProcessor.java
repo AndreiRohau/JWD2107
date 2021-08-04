@@ -1,4 +1,4 @@
-package com.jwdl1;
+package com.jwdl;
 
 public class CircleProcessor {
     public static final double PI_CUSTOM = 3.14666666;

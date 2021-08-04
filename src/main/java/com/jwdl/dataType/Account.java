@@ -1,4 +1,4 @@
-package com.jwdl1.dataType;
+package com.jwdl.dataType;
 
 public class Account {
     private String accountNamePrimary = "Andrei's default account";

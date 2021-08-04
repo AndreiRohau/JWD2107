@@ -1,4 +1,4 @@
-package com.jwdl1.main;
+package com.jwdl.main;
 
 import org.junit.Test;
 

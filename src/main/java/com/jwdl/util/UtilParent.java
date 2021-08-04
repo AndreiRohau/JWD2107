@@ -1,4 +1,4 @@
-package com.jwdl1.util;
+package com.jwdl.util;
 
 public class UtilParent {
     public int ipub = 1;

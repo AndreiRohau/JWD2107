@@ -1,4 +1,4 @@
-package com.jwdl1.util;
+package com.jwdl.util;
 
 public class MainUtil {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.jwdl1.dataType;
+package com.jwdl.dataType;
 
 public class Main {
 
@@ -34,7 +34,7 @@ public class Main {
 //        int integer; //0
 //        System.out.println(integer);
 
-        System.out.println(com.jwdl1.dataType.Main.mainStaticInt);
+        System.out.println(com.jwdl.dataType.Main.mainStaticInt);
 
         Main main = new Main();
         System.out.println(main.mainInt);
