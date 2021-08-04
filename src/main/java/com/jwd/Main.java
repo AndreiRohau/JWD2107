@@ -1,4 +1,4 @@
-package com.epam;
+package com.jwd;
 
 import java.util.logging.Logger;
 
