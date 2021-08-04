@@ -1,12 +1,12 @@
-package com.jwdl.main;
+package com.jwd.main;
 
-public class UtilChild extends com.jwdl.util.UtilParent {
+public class UtilChild extends com.jwd.util.UtilParent {
     void childMethod() {
         super.publicMethod();
         super.protectedMethod();
         Main main = new Main();
 
-        com.jwdl.util.UtilParent utilParent = new com.jwdl.util.UtilParent();
+        com.jwd.util.UtilParent utilParent = new com.jwd.util.UtilParent();
         utilParent.publicMethod();
     }
 }

@@ -1,4 +1,4 @@
-package com.jwdl.main;
+package com.jwd.main;
 
 public class User {
     String name;

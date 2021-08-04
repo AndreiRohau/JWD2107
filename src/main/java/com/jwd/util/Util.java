@@ -1,4 +1,4 @@
-package com.jwdl.main;
+package com.jwd.util;
 
 public class Util {
 }

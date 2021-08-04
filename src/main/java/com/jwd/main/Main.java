@@ -1,6 +1,6 @@
-package com.jwdl.main;
+package com.jwd.main;
 
-import com.jwdl.util.UtilParent;
+import com.jwd.util.UtilParent;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class Main {
 
         //...
 
-        com.jwdl.main.Util u = new com.jwdl.main.Util();
+        com.jwd.main.Util u = new com.jwd.main.Util();
 
         Util u_2 = new Util();
 
@@ -32,6 +32,6 @@ public class Main {
 
         UtilChild utilChild = new UtilChild();
         utilChild.publicMethod();
-        System.out.println(com.jwdl.dataType.Main.mainStaticInt);
+        System.out.println(com.jwd.dataType.Main.mainStaticInt);
     }
 }
