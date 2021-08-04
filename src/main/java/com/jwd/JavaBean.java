@@ -1,4 +1,4 @@
-package com.epam;
+package com.jwd;
 
 public class JavaBean {
     private int i = 1;

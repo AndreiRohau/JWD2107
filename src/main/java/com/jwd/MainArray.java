@@ -1,4 +1,4 @@
-package com.epam;
+package com.jwd;
 
 public class MainArray {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.epam;
+package com.jwd;
 
 public class TmpClass extends AbstractTmpClass implements TmpInterface, TmpInterfaceSecond {
 
