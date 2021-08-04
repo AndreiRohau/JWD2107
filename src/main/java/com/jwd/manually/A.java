@@ -39,3 +39,63 @@ public class A { }
         }
     }
  */
+
+// OR
+
+/* Call file: start.bat
+    cd "C:\Users\ACER\Desktop\my-app"
+    javac MyApp.java
+    java MyApp
+    del MyApp.class
+    pause
+*/
+/* Call file: MyApp.java
+
+import java.time.*;
+import java.time.temporal.*;
+import java.util.*;
+import java.util.regex.*;
+
+public class MyApp {
+	
+	private static final String DATE_PATTERN = "^((19|2[0-9])[0-9]{2})-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$";
+	
+	public static void main(String[] args) {
+		
+		final String inputValue = getValueFromConsole();
+		final LocalDate inputDate = prepareInputDate(inputValue);
+		getDaysToDate(inputDate);
+		System.out.println("MyApp is closed...");
+	}
+	
+	private static String getValueFromConsole() {
+		System.out.println("Enter date to count how much days left to it (ex.: 2021-10-21)");
+		final Scanner scanner = new Scanner(System.in);
+		final String inputValue = scanner.next();
+		scanner.close();
+		return inputValue;
+	}
+	
+	private static LocalDate prepareInputDate(final String inputValue) {
+		final LocalDate inputDate;
+		if (Pattern.compile(DATE_PATTERN).matcher(inputValue).matches()) {
+			inputDate = LocalDate.parse(inputValue);
+		} else {
+			inputDate = null;
+			System.out.println("Your inputValue=[" + inputValue + "]. Try again with proper input format.");
+		}
+		return inputDate;
+	}
+	
+	
+	private static void getDaysToDate(final LocalDate inputDate) {	
+		if (inputDate != null) {	
+			final LocalDate currentDate = LocalDateTime.now().toLocalDate();
+			long daysBetween = ChronoUnit.DAYS.between(currentDate, inputDate);
+			System.out.println("Difference between currentDate=[" + currentDate + 
+							   "] and inputDate=[" + inputDate + "] is [" + daysBetween + "] days.");
+			
+		}
+	}
+}
+*/
