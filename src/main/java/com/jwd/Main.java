@@ -9,8 +9,10 @@ public class Main {
 
     public static void main(String[] args) throws CloneNotSupportedException {
 
-        Address address = new Address();
-        System.out.println(address);
+        Address address0 = new Address();
+        System.out.println(address0);
+        Address address1 = new Address();
+        Address address2 = new Address();
 //        int i[] = { 1, 2 };
 //        int j[] = (int[]) i.clone();
 //
