@@ -22,7 +22,6 @@ public class CollectionsEqualsHashCodeContractMain {
         products.add(new Product(1L, "laptop3", "dell3", "v13", 10003d)); // refurbished
 
         products.forEach(System.out::println);
-
     }
 
     static class Product {
