@@ -27,6 +27,7 @@ public class ListFeaturesMain {
     interface Useless {
         boolean isUseless();
     }
+
     static class Product implements Useless {
         String productName;
         @Override
@@ -34,6 +35,7 @@ public class ListFeaturesMain {
             return false;
         }
     }
+
     static class User implements Useless {
         String userName;
         @Override

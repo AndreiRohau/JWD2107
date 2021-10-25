@@ -26,5 +26,6 @@ public class ArrayListMain {
         System.out.println(integerList);
         integerList.remove(new Integer(6));
         System.out.println(integerList);
+
     }
 }
