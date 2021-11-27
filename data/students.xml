@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students xmlns="http://www.example.com/students">
+    <student login="SamWinchester666" faculty="famcs">
+        <name>Sam Winchester</name>
+        <telephone>291234567</telephone>
+        <address>
+            <country>Belarus</country>
+            <city>Minsk</city>
+            <street>Skaryny</street>
+        </address>
+    </student>
+    <student login="DeanWinchester333">
+        <name>Dean Winchester</name>
+        <telephone>290011223</telephone>
+        <address>
+            <country>Belarus</country>
+            <city>Brest</city>
+            <street>Kastusia</street>
+        </address>
+    </student>
+    <student login="macDuck888" faculty="scan">
+        <name>Ronald MacDonald</name>
+        <telephone>123456789</telephone>
+        <address>
+            <country>Belarus</country>
+            <city>Gomel</city>
+            <street>Kalinouskaha</street>
+        </address>
+    </student>
+</students>
